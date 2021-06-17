@@ -1,51 +1,66 @@
 ## Summary
 
-Replace this paragraph with one or more paragraphs summarizing the purpose and operation of the software you propose to develop in this project.
+
+
+The purpose of this app would be to allow a user to layer midi sound files to create his or her own music.
+
+The user will be able to choose from a sound bank of instruments such as drums or keyboard and create music using the touch screen of the device.  The app will allow the user to add instruments to the recording using free record or drag and drop to a grid to create a full band experience. 
+
+
 
 ## Intended users
 
-Write a bullet list here, including at least 2 different types of intended users. Make it reasonably specific; simply saying "Anyone who likes games" (for example) is not sufficiently specific.
 
-For each type of intended user, include at least 1 _user story_. A user story is usually just 1 simple sentence (no more than 2 sentences), in the voice of the intended user, stating a specific task that the user performs using the app, and the benefit that will be obtained. The simplest user stories take the form 
+*  The Songwriter
 
-> As a <type of intended user (_who_)> I want to <use of feature use or functionality (_what_)> so that <benefit (_why_).
+> As a songwriter, I want to use the builtin instrument library and free record function of this app so that I can quickly record a melody or harmony for future use.
 
-Please avoid writing too much for the user story. In particular, if the way the user story is written makes it difficult to see the _who_, _what_, and _why_, then you probably need to re-write it more directly. (On the other hand, a user story should not simply be a re-statement of the intended user description.)
 
-Here is one (silly) example of an intended user, along with a user story. Please note not only the conceptual structure, but the Markdown syntax used.
+*  The doodler
 
-* People who like to use randomness in their decision making.
-
-    > As someone who enjoys randomness in my life, I need an app that lets me flip a virtual coin or roll one or more virtual dice, so that I can base my decisions on randomness, without having to carry coins or dice in my pockets.
+> As someone who enjoys music, I want to use the screen tap and record function so that I can tap out the groovy beats in my head.
 
 ## Client component
 
 ### Functionality
 
-List the key functional aspects that will be provided by the user interface---i.e. tell us what the user will be able to do in the GUI.
+*  The app will display a time grid that will accept input sounds for playback.  
+      *  The grid will have a slide menu to manipulate tempo and a button to customize musical divisions such as 16th notes or 8 notes per beat.
+*  The user will have a top menu that will expand into buttons for New/recall, instrument library, custom sound bank.
+*  The user will select a new track from the New button.
+*  The user will select the first instrument from the instrument select menu.
+*  The user will have the option to press record and free play the instrument to a metronome or slide sound files into the music time grid.
+*  The user will be able to layer new tracks with the option to record a new instrument.
+*  The app will have a playback button to play back all tracks or the tracks selected by the user to play.
+
+
 
 ### Persistent data
 
-List the content that will be stored on the client side. This should include any information that a user of your system should expect to be maintained locally (i.e. without connection to a server) across multiple sessions of use, on a single device. 
-    
+*  Instruments files.
+*  Sound banks/libraries.
+  
 ### Device/external services
 
-If the client component will need to access special services of the device (e.g. sensors, contacts, messaging), list them here. Also, if the client component will need to access already-existing external services (e.g. real-time weather data, Open Trivia Database), those should also be listed here; any such references to external services should include links to the main page or API description page for the service.
-    
+*  Microphone <a href="https://developer.android.com/reference/android/media/MediaRecorder">Media Recorder API</a>
+
 ## Server component
 
 ### Functionality
 
-List the key functional aspects that will be provided by the server component---i.e. tell us what parts of the system functionality will be performed by the server.
+* N/A
 
 ### Persistent data
 
-List the content that will be stored on the server side. This should include any information that a user of your system should expect to be accessible across multiple sessions of use, even if accessed from separate devices. In addition, if there will be data originating from some users that will then be accessible by other users, it should be part of the persistent data on the server. 
-    
+* N/A
+
 ### External services
 
-If the server component will need to access already-existing external services (e.g. stock prices, Open Movie Database), those should also be listed here. Any such references to external services should include links to the main page or API description page for the service.
-    
+* N/A
+ 
 ## Stretch goals/possible enhancements 
 
-If you can identify functional elements of the software that you think might not be achievable in the scope of the project, but which would nonetheless add significant value if you were able to include them, list them here. For now, we recommend listing them in order of complexity/amount of work, from the least to the most.
+* Time Signatures
+* Instrument quick key selection.\
+* Effects layering such as reverb, delay.
+* Master track effects such as compression and EQ.
