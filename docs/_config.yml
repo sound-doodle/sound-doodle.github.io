@@ -2,7 +2,7 @@ remote_theme: ddc-java/ddc-day
 repository_links:
   enabled: false
 page_navigator:
-  enabled: false
+  enabled: true
 titles_from_headings:
   enabled: false
 
@@ -11,7 +11,7 @@ titles_from_headings:
 title: "Sound Doodle"                                                 # Write the project title inside the quotes.
 description: "Music creation app to make homemade tracks on the go."  # Write the project description inside the quotes
 author:                                                               # Don't do anything with this line!
-  name: "Lee Scroggins"                                               # Write your name inside the quotes.
+  name: "Kelley Bonneville, Lee Scroggins, Victor Perez"                                               # Write your name inside the quotes.
 
 # Do not modify the following line!
   copyright: true  
