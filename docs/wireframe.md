@@ -8,4 +8,4 @@ order: 10
 ## Wireframe 
 
 
-![Sound Doodle ERD](img/erd.png)
+![Sound Doodle ERD](img/wireframe.png)
