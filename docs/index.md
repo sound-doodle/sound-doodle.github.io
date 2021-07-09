@@ -40,7 +40,7 @@ will allow users to record audio.
 *  The user will select a new project and new tracks from the New button.
 *  The user will select the first instrument from the instrument select menu.
 *  The user will be able to layer new tracks with the option to record a new instrument.
-*  The app will have a playback button to play back all tracks or the tracks selected by the user to play.
+*  The app will have a playback button to play back all tracks, or the tracks selected by the user to play.
 
 
 
@@ -74,6 +74,11 @@ will allow users to record audio.
 ### External services
 
 *  Internet for data transfer.
+*  Google Authenticator for client & server.
+   OpenID Connect <a href="https://developers.google.com/identity/protocols/oauth2/openid-connect?hl=en">OpenID Connect API</a>
+   *  The app will create a Token and then send an Authentication request to Google. The Token will obtain user info from the ID token. 
+      When the user attempts to access the app, if the user already exists access will be granted.  If the user does not exist, the app will redirect the user to the new sign-up flow.
+      If service is not available, the user will be unable to verify identity and access will not be granted to the app.
  
 ## Stretch goals/possible enhancements 
 
