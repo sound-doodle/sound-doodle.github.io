@@ -29,7 +29,7 @@ will allow users to record audio.
 
 *  The Doodler
 
-> As someone who enjoys music, I want to use the screen tap and record function so that I can tap out the groovy beats in my head.
+> As a musician, I want to use the screen tap and record function so that I can tap out the groovy beats in my head.
 
 ## Client component
 
