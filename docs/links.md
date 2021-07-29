@@ -12,5 +12,7 @@ order: 30
 
 ## [Service Classes](https://github.com/sound-doodle/service/tree/main/src/main/java/edu/cnm/deepdive/sounddoodleservice/model/service)
 
+## [Controller Classes](https://github.com/sound-doodle/service/tree/main/src/main/java/edu/cnm/deepdive/sounddoodleservice/controller)
+
 ## [DDL](https://github.com/sound-doodle/service/tree/main/docs/sql)
 
