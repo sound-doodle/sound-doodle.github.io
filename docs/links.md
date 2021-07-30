@@ -16,3 +16,5 @@ order: 30
 
 ## [DDL](https://github.com/sound-doodle/service/tree/main/docs/sql)
 
+## [Configuration](https://github.com/sound-doodle/service/tree/main/src/main/java/edu/cnm/deepdive/sounddoodleservice/configuration)
+
